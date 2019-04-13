@@ -1,0 +1,6 @@
+framework module RealTestOne {
+  umbrella header "RealTestOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

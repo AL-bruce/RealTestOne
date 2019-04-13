@@ -1,0 +1,16 @@
+PODS:
+  - RealTestOne (0.1.0)
+
+DEPENDENCIES:
+  - RealTestOne (from `../`)
+
+EXTERNAL SOURCES:
+  RealTestOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RealTestOne: 04ac77930dc4dfd9ff7e24648822b583da77c7bf
+
+PODFILE CHECKSUM: 714f916e9885f36b7a61d5c870a2a5ff406697a5
+
+COCOAPODS: 1.2.1
