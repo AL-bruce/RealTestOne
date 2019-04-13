@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		2E62A916872A63C5F0A52801C28C4514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		404E3817CC75558352CC819F3430504A /* Pods-RealTestOne_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 103D4EA5EE835EA3789E0DD15854E913 /* Pods-RealTestOne_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6208BEC6674811A1791802F75C5CCE6F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B3933CEBED46B44B46D9A031BF174463 /* ReplaceMe.m */; };
+		50FF111922622D890080A676 /* ALView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FF111722622D890080A676 /* ALView.h */; };
+		50FF111A22622D890080A676 /* ALView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FF111822622D890080A676 /* ALView.m */; };
 		8A69330BD97CC03B49CF4B8F3681164F /* RealTestOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F12FC79975271DE3C5FB92303D22EB /* RealTestOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E2CFA4E9954197FB9E36F60F7391860 /* RealTestOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C8C3A305F8A2A18463A8D8680F01A3 /* RealTestOne-dummy.m */; };
 		C3BADB9B872FB6AB636E04B3F9F1BD70 /* Pods-RealTestOne_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4A7D55F01EAB40D5D90BA581A50CC4 /* Pods-RealTestOne_Tests-dummy.m */; };
@@ -39,19 +40,20 @@
 		27754FBAB2810E28EFA4F028FCC02EE2 /* RealTestOne.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealTestOne.xcconfig; sourceTree = "<group>"; };
 		2F40806109B74186350C09B4870E2BD0 /* Pods-RealTestOne_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTestOne_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		31F12FC79975271DE3C5FB92303D22EB /* RealTestOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealTestOne-umbrella.h"; sourceTree = "<group>"; };
-		5EA89DC16ED0D3CF1234DD80D34CFF5A /* Pods-RealTestOne_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RealTestOne_Example.modulemap"; sourceTree = "<group>"; };
+		50FF111722622D890080A676 /* ALView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALView.h; sourceTree = "<group>"; };
+		50FF111822622D890080A676 /* ALView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALView.m; sourceTree = "<group>"; };
+		5EA89DC16ED0D3CF1234DD80D34CFF5A /* Pods-RealTestOne_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealTestOne_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7766961E2F5CEC50D27AAEC53D8BD002 /* RealTestOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RealTestOne.modulemap; sourceTree = "<group>"; };
-		7CC062E86525BD2FAAA15BA3ABF508AC /* RealTestOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealTestOne.framework; path = RealTestOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7766961E2F5CEC50D27AAEC53D8BD002 /* RealTestOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RealTestOne.modulemap; sourceTree = "<group>"; };
+		7CC062E86525BD2FAAA15BA3ABF508AC /* RealTestOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealTestOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1C1FF5EC3A479B3DB50E90987A55C2 /* Pods-RealTestOne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealTestOne_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8FD0DB1A11CC085CCA12B933511F8167 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90C8C3A305F8A2A18463A8D8680F01A3 /* RealTestOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealTestOne-dummy.m"; sourceTree = "<group>"; };
-		9135B628126A7ACDC71258631F49CD1B /* Pods_RealTestOne_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RealTestOne_Tests.framework; path = "Pods-RealTestOne_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		935226C3B68136A06D4CFDBF363847C3 /* Pods_RealTestOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RealTestOne_Example.framework; path = "Pods-RealTestOne_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9135B628126A7ACDC71258631F49CD1B /* Pods_RealTestOne_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTestOne_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		935226C3B68136A06D4CFDBF363847C3 /* Pods_RealTestOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTestOne_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACA71BDD0D6CDC6E617EE5A14E790CCC /* Pods-RealTestOne_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealTestOne_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3933CEBED46B44B46D9A031BF174463 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		BCC7EABAE94FC112F8DBF599528F2011 /* Pods-RealTestOne_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RealTestOne_Tests.modulemap"; sourceTree = "<group>"; };
+		BCC7EABAE94FC112F8DBF599528F2011 /* Pods-RealTestOne_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealTestOne_Tests.modulemap"; sourceTree = "<group>"; };
 		BF4A7D55F01EAB40D5D90BA581A50CC4 /* Pods-RealTestOne_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealTestOne_Tests-dummy.m"; sourceTree = "<group>"; };
 		C64A02575FEC91B042827EBA24D3E5B4 /* Pods-RealTestOne_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealTestOne_Example-dummy.m"; sourceTree = "<group>"; };
 		C7314B2046070A7DE67D45C2935231A5 /* Pods-RealTestOne_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealTestOne_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -211,16 +213,15 @@
 			children = (
 				F6F910A48D394BBBBA0F5057E0544D73 /* Classes */,
 			);
-			name = RealTestOne;
 			path = RealTestOne;
 			sourceTree = "<group>";
 		};
 		F6F910A48D394BBBBA0F5057E0544D73 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B3933CEBED46B44B46D9A031BF174463 /* ReplaceMe.m */,
+				50FF111722622D890080A676 /* ALView.h */,
+				50FF111822622D890080A676 /* ALView.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -231,6 +232,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50FF111922622D890080A676 /* ALView.h in Headers */,
 				404E3817CC75558352CC819F3430504A /* Pods-RealTestOne_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -348,7 +351,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2CFA4E9954197FB9E36F60F7391860 /* RealTestOne-dummy.m in Sources */,
-				6208BEC6674811A1791802F75C5CCE6F /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7F4D940990FA48ECBE61A9E1199F89 /* Pods-RealTestOne_Example-dummy.m in Sources */,
+				50FF111A22622D890080A676 /* ALView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
