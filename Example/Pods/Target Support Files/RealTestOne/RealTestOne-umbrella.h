@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ALView.h"
 
 FOUNDATION_EXPORT double RealTestOneVersionNumber;
 FOUNDATION_EXPORT const unsigned char RealTestOneVersionString[];

@@ -1,9 +1,9 @@
 {
   "name": "RealTestOne",
   "version": "0.1.0",
-  "summary": "A short description of RealTestOne.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1158868360@qq.com/RealTestOne",
+  "summary": "A test of RealTestOne.",
+  "description": "test123",
+  "homepage": "https://github.com/mathebinary/RealTestOne",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "1158868360@qq.com": "642848215@qq.com"
   },
   "source": {
-    "git": "https://github.com/1158868360@qq.com/RealTestOne.git",
+    "git": "https://github.com/mathebinary/RealTestOne.git",
     "tag": "0.1.0"
   },
   "platforms": {
