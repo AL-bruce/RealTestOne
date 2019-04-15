@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RealTestOne'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A test of RealTestOne.'
 
 # This description is used to generate tags and improve search results.
@@ -26,6 +26,7 @@ test123
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1158868360@qq.com' => '642848215@qq.com' }
   s.source           = { :git => 'https://github.com/mathebinary/RealTestOne.git', :tag => s.version.to_s }
+  s.frameworks = 'UIKit', 'Foundation'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
