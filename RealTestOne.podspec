@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RealTestOne'
-  s.version          = '0.4.0'
-  s.summary          = 'A test of RealTestOne.'
+  s.version          = '0.5.0'
+  s.summary          = 'A test of RealTestOne headerfile.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,9 +32,9 @@ test123
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RealTestOne/**/*.{h,m}'
-s.requires_arc = true
-s.public_header_files = 'RealTestOne/**/*.{h}'
+  s.source_files = 'RealTestOne/Classes/**/*.{h,m}'
+  s.requires_arc = true
+  s.public_header_files = 'RealTestOne/Classes/**/*.{h}'
 
   # s.resource_bundles = {
   #   'RealTestOne' => ['RealTestOne/Assets/*.png']
